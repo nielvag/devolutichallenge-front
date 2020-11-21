@@ -1,0 +1,126 @@
+{
+  "providers": [
+    {
+      "id": 1,
+      "name": "Fornecedor 01",
+      "document": "00.000.000/0001-00",
+      "category": "Alimentos"
+    },
+    {
+      "id": 2,
+      "name": "Fornecedor 02",
+      "document": "00.000.000/0002-00",
+      "category": "Bebídas"
+    },
+    {
+      "id": 3,
+      "name": "Fornecedor 03",
+      "document": "00.000.000/0003-00",
+      "category": "Produtos de limpeza"
+    },
+    {
+      "id": 4,
+      "name": "Fornecedor 04",
+      "document": "00.000.000/0004-00",
+      "category": "Outros"
+    },
+    {
+      "id": 5,
+      "name": "Fornecedor 05",
+      "document": "00.000.000/0005-00",
+      "category": "Bebídas"
+    },
+    {
+      "id": 6,
+      "name": "Fornecedor 06",
+      "document": "00.000.000/0006-00",
+      "category": "Alimentos"
+    },
+    {
+      "id": 7,
+      "name": "Fornecedor 07",
+      "document": "00.000.000/0007-00",
+      "category": "Outros"
+    },
+    {
+      "id": 8,
+      "name": "Fornecedor 08",
+      "document": "00.000.000/0008-00",
+      "category": "Produtos de limpeza"
+    },
+    {
+      "id": 9,
+      "name": "Fornecedor 09",
+      "document": "00.000.000/0009-00",
+      "category": "Alimentos"
+    },
+    {
+      "id": 10,
+      "name": "Fornecedor 10",
+      "document": "00.000.000/0010-00",
+      "category": "Outros"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "000123",
+      "category": "Bebídas",
+      "provider_id": 2
+    },
+    {
+      "id": 2,
+      "code": "8519954",
+      "category": "Alimentos",
+      "provider_id": 7
+    },
+    {
+      "id": 3,
+      "code": "789788",
+      "category": "Alimentos",
+      "provider_id": 6
+    },
+    {
+      "id": 4,
+      "code": "0880088",
+      "category": "Produtos de limpeza",
+      "provider_id": 3
+    },
+    {
+      "id": 5,
+      "code": "17194",
+      "category": "Bebídas",
+      "provider_id": 2
+    },
+    {
+      "id": 6,
+      "code": "219889",
+      "category": "Bebídas",
+      "provider_id": 5
+    },
+    {
+      "id": 7,
+      "code": "1789798",
+      "category": "Alimentos",
+      "provider_id": 1
+    },
+    {
+      "id": 8,
+      "code": "9087089",
+      "category": "Produtos de limpeza",
+      "provider_id": 8
+    },
+    {
+      "id": 9,
+      "code": "070800",
+      "category": "Outros",
+      "provider_id": 10
+    },
+    {
+      "id": 10,
+      "code": "2789887",
+      "category": "Bebídas",
+      "provider_id": 5
+    }
+  ]
+}

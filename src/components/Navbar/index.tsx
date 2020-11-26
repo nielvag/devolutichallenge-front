@@ -1,22 +1,27 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+
+import { Header, Bar, Menu, MenuLink } from './styles';
+import logo from '../../assets/logo.svg';
 
 const Navbar: React.FC = () => {
     return (
-        <div>
-            <ul>
-                <li>
-                    <NavLink to="/" exact activeStyle={{fontWeight: "bold"}}>
-                        Home
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="products" activeStyle={{fontWeight: "bold"}}>
-                        Products
-                    </NavLink>
-                </li>
-            </ul>
-        </div>
+      <Header>
+        <Bar>
+          <img src={logo} alt="DevoluTI"/>
+          <Menu>
+            <li>
+              <MenuLink to="/providers" exact activeClassName="menuLink">
+                Fornecedores
+              </MenuLink>
+            </li>
+            <li>
+              <MenuLink to="products" activeClassName="menuLink">
+                Produtos
+              </MenuLink>
+            </li>
+          </Menu>
+        </Bar>
+      </Header>
     );
 }
 

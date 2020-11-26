@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
   * {
@@ -9,12 +10,12 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F0F2F5 ;
+    background: #E5E5E5 ;
     -webkit-font-smoothing: antialiased
   }
 
   body, input, button {
-    font: 16px "Poppins", sans-serif;
+    font-family: 16px 'Montserrat', sans-serif;
   }
 
   button {
